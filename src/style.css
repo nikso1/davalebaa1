@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 
 header{
     background-image: url(/photos/Web_cover-photo-1920x813-preset.jpg);
@@ -54,10 +57,49 @@ header{
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding: 10px;
 }
 .col-md-12 .row .col-md-4{
     width: 33.3333%;
     display: flex;
     justify-content: center;
+    align-items: center;    
+}
+.col-md-12 .row .col-md-4 .logo{
+    padding: 15px;
+}
+.col-md-12 .row .col-md-4 .logo img{
+    width: 70px;
+}
+.col-md-12 .row .col-md-4 .description h4{
+    font-size: 20px;
+}
+.col-md-12 .row .col-md-4 .description p{
+    font-size: 16px;
+    color: black;
+}
+section{
+    margin-top: 20px;
+}
+.col-md-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 25%;
+    padding: 5px;
+}
+.col-md-3 .data{
+    padding: 15px;    
+}
+.col-md-3 .data h3{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.col-md-3 .hours{
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+.col-md-3 .hours p{
+    padding: 0 10px;
 }
